@@ -1,0 +1,40 @@
+#testimonials {
+  margin-bottom: 50px;
+  color: #272727;
+  #review1 {
+    margin: 0px;
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  #review2 {
+    margin: 0px;
+    padding: 50px;
+    background-color: #1ca8fc;
+    color: white;
+  }
+  #triangle {
+    margin: 0;
+    padding: 0;
+    .col-2 {
+      margin: 0;
+      padding: 0;
+      img {
+        margin-top: -10px;
+        padding-left: 20px;
+        margin-left: 30px;
+        padding: 0;
+      }
+    }
+  }
+  .btn {
+    padding: 30px;
+    border-radius: 50%;
+  }
+  p {
+    text-decoration: underline;
+    font-style: italic;
+  }
+  h3 {
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+#start-earning {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: white;
+  color: $headers-color;
+  .btn {
+    background-color: $red-color;
+    font-weight: bold;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+  }
+  .btn:hover {
+  }
+}

@@ -1,0 +1,110 @@
+@import './variables.scss';
+
+// mobile first
+#navbar-other {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: white;
+  z-index: 10;
+  padding: 20px;
+  background: url('../img/boat_banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: Abolition;
+    letter-spacing: 0.15rem;
+    .navbar-logo {
+      width: 50px;
+      padding: 2px;
+      margin-right: 10px;
+      border-radius: 5%;
+    }
+  }
+  .nav-item {
+    color: white;
+  }
+  .nav-link {
+    color: white;
+  }
+  .nav {
+    color: white;
+  }
+  .nav-item-ordinary {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-weight: 700;
+  }
+  .nav-item-ordinary:hover {
+    color: #ded;
+  }
+  .nav-item-login:hover {
+    color: #ded;
+  }
+  .nav-item-join:hover {
+    color: #ded;
+  }
+  .nav-item-login {
+    color: white;
+    background-color: #272727;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+  .nav-item-join {
+    color: white;
+    background-color: #1ca8fc;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  #navbar-other {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    .navbar-brand {
+      font-size: 2.2rem;
+      letter-spacing: 0.2rem;
+      .navbar-logo {
+        width: 75px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  #navbar-other {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: $screen-xxl-min) {
+  #navbar-other {
+    .navbar-brand {
+      font-size: 45px;
+    }
+    .nav-item {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: $screen-xsm-min) {
+  #navbar-other {
+    padding: 5px;
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+  }
+}

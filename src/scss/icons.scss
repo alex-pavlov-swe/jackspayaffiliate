@@ -1,0 +1,24 @@
+@import 'variables.scss';
+
+#icons {
+  color: $headers-color;
+  background-color: $light-grey;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  img {
+    margin: 25px;
+    height: 60px;
+  }
+  h3 {
+    font-weight: 800;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  #icons {
+    img {
+      height: 80px;
+    }
+  }
+}

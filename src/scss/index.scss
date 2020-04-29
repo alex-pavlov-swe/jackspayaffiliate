@@ -1,0 +1,41 @@
+@import './navbar.scss';
+@import './navbar-2.scss';
+@import './footer.scss';
+@import './home.scss';
+@import './about.scss';
+@import './joinForm.scss';
+@import './carousel.scss';
+@import './login.scss';
+@import './user.scss';
+@import './contact.scss';
+@import './startEarning.scss';
+@import './startEarningBottom.scss';
+@import './bonuses.scss';
+@import './testimonials.scss';
+@import './icons.scss';
+
+// Import Bootstrap
+@import 'bootstrap/scss/bootstrap.scss';
+
+html,
+body {
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  letter-spacing: 0.1rem;
+  font-weight: 800;
+}
+
+h3,
+h4 {
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+p {
+  color: black;
+}
